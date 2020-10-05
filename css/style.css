@@ -1,0 +1,429 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: monospace;
+}
+
+
+a, a:hover{
+	text-decoration: none;
+}
+
+
+
+
+/****************ssb class 5 **************/
+
+/******************golobale css end*****************/
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+
+.col-md-4{
+	width: 33.33%;
+	float: left;
+
+
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+
+/*******************golobale css end************/
+/*******************header siction start*************/
+
+.header-section{
+	width: 100%;
+	
+	padding: 10px 0px;
+	background: #f9f9f9;
+}
+
+.logo{
+	width: 100%;
+	
+}
+.main-meno{
+	width: 100%;
+	float: left;
+	}
+.main-meno ul{
+display: block;
+margin: 10px 0px;
+text-align: right;
+margin-top:10px;
+
+}
+.main-meno ul li{
+display: inline-block;
+list-style: none;
+
+}
+.main-meno ul li a{
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 700;
+margin: 0px 15px;
+color: #999;
+}
+.main-meno ul li a:hover{
+color: #15a4fa;
+}
+/***************************header siction end*************/
+
+/**************************banner section start**************/
+.banner-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 0px;
+	background: url("../img/BANNER.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-inner{
+	width: 100%;
+	float:left;
+	padding: 80px 0px;
+	text-align: center;
+}
+.banner-inner h1{
+	font-size: 65px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+
+}
+.divider{
+width: 40%;
+height: 2px;
+margin: 30px auto;
+background:  #15A4FA;
+
+
+}
+.banner-inner p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 50px;
+	
+
+}
+
+.banner-inner .btn{
+	padding: 15px 35px;
+	font-size: 15px;
+	background:  transparent;
+	border: 1px solid #15A4FA;
+	color: #fff;
+	border-radius: 5px;
+
+}
+.banner-inner .btn:hover{
+	background: #15A4FA;
+	color: #fff;
+	border: 1px solid #15a4fa;
+}
+.arrow{
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+
+}
+.arrow-icon{
+	margin-top: 100px;
+	transform: translate(0%, 100%);
+}
+/*****************8banner section end************/
+
+/********************simple section start************************/
+.simple-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	background: #f6f9f9;
+	text-align: center;
+}
+.simple-inner{
+	width: 100%;
+	float: left;
+
+}
+.simple-inner h1{
+
+font-size: 42px;
+font-weight: 400;
+line-height: 57px;
+color: #000;
+margin-bottom: 15px;
+
+
+}
+.simple-inner p{
+
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: #999;
+margin-bottom: 15px;
+
+}
+/******************simple section end****************/
+
+/*****************feature section css start**********/
+.feature{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+}
+.feature .feature-inner{
+width: 100%;
+float: left;
+text-align: center;
+
+}
+.feature .feature-inner img{
+	margin-bottom: 15px;
+}
+
+.feature .feature-inner h4{
+
+font-size: 22px;
+font-weight: 400;
+line-height: 35px;
+color: #000;
+margin-bottom: 10px;
+
+
+}
+.feature .feature-inner p{
+
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: #999;
+margin-bottom: 15px;
+
+}
+
+
+
+/*****************feature section css end************/
+
+
+/*****************portfolio section css start**********/
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f9f9f9;
+	
+}
+.portfolio .titel{
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.portfolio .titel h4{
+	font-size: 42px;
+	font-weight: 400px;
+	line-height: 52px;
+	color: #000;
+	margin-bottom: 5px;
+}
+.portfolio .titel p{
+	font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: #999;
+
+
+}
+.portfolio-inner{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.port-hover{
+	text-align: center;
+	width: 100%;
+	height: 98%;
+	position: absolute;
+	top: 0%;
+	background: rgb(29,156,236, .8);
+	display: none;
+}
+.port-hover ul{
+display: block;
+position: absolute;
+top: 40%;
+left: 36%;
+}
+.port-hover ul li{
+	display: inline-block;
+list-style: none;
+}
+.port-hover ul li a{
+
+}
+.port-hover ul li a img{
+
+}
+.portfolio-inner:hover .port-hover{
+	display: block;
+	transition: 1s;
+}
+.marr{
+	margin-top: 10px;
+}
+/*****************portfolio section css end**********/
+
+
+
+/**********************stya-us css scetion start*********/
+.stya-us{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url(../img/bg.png) center top no-repeat;
+	background-size: cover;
+
+}
+.stya-us .titel{
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.stya-us .titel h4{
+	font-size: 42px;
+	font-weight: 400px;
+	line-height: 52px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.stya-us .titel p{
+	font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color: #999;
+
+
+}
+.stya-us .main-form{
+	width: 50%;
+	margin: 0px auto;
+}
+
+.stya-us .main-form .form-group{
+	width: 100%;
+	float: left;
+	margin:5px 0px;
+}
+
+.stya-us .main-form .form-group .form-control{
+	width: 96%;
+	background: transparent;
+	border: 1px solid #999;
+	padding: 15px 10px;
+	border-radius: 5px;
+	margin: 5px 0px;
+	color: #aaa;
+	font-size: 14px;
+}
+.stya-us .main-form .form-group textarea{
+	height: 180px;
+	
+}
+.stya-us .main-form .form-group span{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.stya-us .main-form .btn-info
+{
+	padding: 10px 35px;
+	font-size: 15px;
+	background:  transparent;
+	border: 1px solid #15A4FA;
+	color: #fff;
+	border-radius: 5px;
+
+}
+.stya-us .main-form .btn-info:hover{
+	background: #15A4FA;
+	color: #fff;
+	border: 1px solid #15a4fa;
+}
+/**********************stya-us css scetion start*********/
+/*footer section css start */
+
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+}
+.footer-section .copyright{
+	font-size: 14px;
+	color: #d7d9d9;
+	margin-top: 10px;
+}
+.footer-section .social-icons{
+width: 100%;
+float: left;
+text-align: right;
+}
+.footer-section .social-icons ul{
+display: block;
+}
+.footer-section .social-icons ul li{
+	display: inline-block;
+	list-style: none;
+
+}
+.footer-section .social-icons ul li a{
+text-align: center;
+color: #fff;
+font-size: 16px;
+}
+
+.footer-section .social-icons ul li a .fa{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 2px;
+	background: #15a4fa;
+	color: #fff;
+	border: 1px solid #15a4fa;
+}
+.footer-section .social-icons ul li a .fa:hover{
+	background: transparent;
+	color: #15a4fa;
+	border: 1px solid #15a4fa;
+}
+
+/*footer section css end*/
